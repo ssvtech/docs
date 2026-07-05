@@ -1,20 +1,22 @@
 {
   "name": "Talenzly",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#000000"
+    "primary": "#18181b",
+    "light": "#52525b",
+    "dark": "#18181b"
   },
   "topbarLinks": [
     { "name": "App", "url": "https://app.talenzly.com" }
   ],
+  "topbarCtaButton": {
+    "name": "Get started free",
+    "url": "https://app.talenzly.com/register"
+  },
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["introduction", "quickstart"]
+      "pages": ["index", "quickstart"]
     },
     {
       "group": "Features",
@@ -30,5 +32,8 @@
       "group": "Account",
       "pages": ["account/billing", "account/plans"]
     }
-  ]
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/talenzly"
+  }
 }
