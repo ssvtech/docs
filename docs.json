@@ -14,25 +14,25 @@
     "url": "https://app.talenzly.com/register"
   },
   "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": ["index", "quickstart"]
-    },
-    {
-      "group": "Features",
-      "pages": [
-        "features/upload-candidates",
-        "features/ai-screening",
-        "features/invite-team",
-        "features/shortlists",
-        "features/interview-feedback"
-      ]
-    },
-    {
-      "group": "Account",
-      "pages": ["account/billing", "account/plans"]
-    }
-  ],
+  {
+    "group": "Getting Started",
+    "pages": ["index", "quickstart"]
+  },
+  {
+    "group": "Features",
+    "pages": [
+      "upload-candidates",
+      "ai-screening",
+      "invite-team",
+      "shortlists",
+      "interview-feedback"
+    ]
+  },
+  {
+    "group": "Account",
+    "pages": ["billing", "plans"]
+  }
+],
   "footerSocials": {
     "twitter": "https://twitter.com/talenzly"
   }
